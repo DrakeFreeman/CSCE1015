@@ -7,8 +7,8 @@ def calculate_average(numbers):
     average = total_sum / count
     return average
 
-def generate_random_numbers(n):
-    # Should generate `n` random numbers between 1 and 100.
+ def generate_random_numbers(n):
+   # Should generate `n` random numbers between 1 and 100.
     numbers = []
     for i in range(n):
         number = random.randint(1, 100)
